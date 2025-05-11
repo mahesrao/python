@@ -1,3 +1,59 @@
-1. Variables
-2. Data Types
-3. Operators
+
+# Python Basics Practice: Variables, Data Types, and Operators
+
+# ---- 1. Variables ----
+name = "John Doe"
+age = 35
+is_devops = True
+
+print("Name:", name)
+print("Age:", age)
+print("Is DevOps Engineer?", is_devops)
+
+# ---- 2. Data Types ----
+a = 100            # int
+b = 45.6           # float
+c = "Cloud"        # str
+d = [1, 2, 3]      # list
+e = (4, 5, 6)      # tuple
+f = {"x": 10}      # dict
+g = {7, 8, 9}      # set
+
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+print(type(f))
+print(type(g))
+
+# ---- 3. Arithmetic Operators ----
+x = 15
+y = 4
+
+print("Addition:", x + y)
+print("Subtraction:", x - y)
+print("Multiplication:", x * y)
+print("Division:", x / y)
+print("Floor Division:", x // y)
+print("Modulus:", x % y)
+print("Exponentiation:", x ** y)
+
+# ---- 4. Comparison Operators ----
+print("Is x > y?", x > y)
+print("Is x == y?", x == y)
+print("Is x != y?", x != y)
+
+# ---- 5. Logical Operators ----
+print("x > 10 and y < 5:", x > 10 and y < 5)
+print("x == 15 or y == 0:", x == 15 or y == 0)
+print("not(x == y):", not(x == y))
+
+# ---- 6. Assignment Operators ----
+z = 10
+z += 5  # z = z + 5
+print("z after += 5:", z)
+
+z *= 2  # z = z * 2
+print("z after *= 2:", z)
+
